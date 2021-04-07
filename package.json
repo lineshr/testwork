@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "codeceptjs": "codeceptjs run --steps  --reporter mocha-multi",
-    "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps --verbose --plugins allure",
+    "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps --verbose ",
     "codeceptjs:ui": "codecept-ui --app"
   },
   "dependencies": {
