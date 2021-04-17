@@ -24,6 +24,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci --force
     - run: npm install  playwright --save-dev
-    - run: npm  codeceptjs run --steps --verbose
+    - run: npm run codeceptjs:headless
 
 
